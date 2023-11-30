@@ -1,0 +1,428 @@
+
+body {
+	background-color: rgba(211, 226, 249, 1);
+	margin:0px;
+  }
+
+  .hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color:rgba(211, 226, 249, 1);
+}
+
+.hero::before {    
+      content: "";
+	  background-image: url("/src/images/background.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+}
+
+    .title{
+	font-family: Playpen Sans;
+	color:rgba(57, 121, 216, 1);
+	font-size:80px;
+	text-align: center;
+	isolation:isolate;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+  }
+  
+  .about{
+	margin: 40px;
+  }
+  .question{
+	font-family: Playpen Sans;
+	color:rgba(57, 121, 216, 1);
+	font-size:30px;
+  }
+  .answer{
+	font-family: Playpen Sans;
+	color:rgba(6, 41, 94, 1);
+	font-size:20px;
+  }
+
+  .startbutton{
+	padding: 10px 20px;
+	background-color: rgba(57, 121, 216, 1);
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 4px;
+	width: 100px;
+  }
+
+.buttoncenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:50px;
+}
+
+.essense{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+	width: 80%;
+	height: auto;
+	}
+  }
+.essensecenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.essenseset{
+	display:grid;
+	justify-content: center;
+	align-items: center;
+}
+.cream{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+.creamcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.creamset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.bb{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+.bbcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+}
+.bbset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.razer{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+.razercenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.razerset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.eyebrownpen{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+.eyebrowpencenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.eyebrownpenset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.eyeshadow{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .eyeshadowcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.eyeshadowset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.eyeliner{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .eyelinercenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.eyelinerset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.eyelashcurler{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .eyelashcurlercenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.eyeslashcurlerset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.lashclash{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .lashclashcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.lashclashset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.blush{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .blushcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.blushset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.lip{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .lipcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.lipset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.comb{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+		width: 80%;
+		height: auto;
+		}
+  }
+  .combcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.combset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.curler{
+	@media (max-width:320px){
+	width: 50%;
+	height: auto;
+	}
+	@media (max-width:834px) and (min-width:320px){
+	width: 30%;
+	height: auto;
+	}
+}
+  .curlercenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+.curlerset{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.tab{
+	@media (max-width:320px){
+	padding: 5px 10px;
+	}
+	padding: 2px 4px;
+	font-size: 20px;
+	background-color: rgba(57, 121, 216, 1);
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 30px;
+	height: 30px;
+	width: 100px;
+  }
+
+  .tabcenter{
+	@media (max-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+
+.ipadset1{
+	@media (max-width:834px) and (min-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 90px;
+	}
+}
+.ipadset2{
+	@media (max-width:834px) and (min-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 90px;
+	}
+}
+.ipadset3{
+	@media (max-width:834px) and (min-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 90px;
+	}
+}
+.ipadset4{
+	@media (max-width:834px) and (min-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 90px;
+	}
+}
+.ipadset5{
+	@media (max-width:834px) and (min-width:320px){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 90px;
+	}
+}
