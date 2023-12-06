@@ -1,4 +1,9 @@
 
+@font-face {
+	font-family: 'Playpen Sans';
+	src: url('/Users/leah/Desktop/final-project-fall-2022-asmr/src/fonts/PlaypenSans-VariableFont_wght.ttf') format('woff2'),
+  }
+
 body {
 	background-color: rgb(211 226 249 / 100%);
 	margin:0;
