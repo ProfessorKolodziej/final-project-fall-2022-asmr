@@ -688,7 +688,7 @@ body {
 	width: 80px;
 
 	@media (width <=768px) and (width >=375px){
-	margin-left: 30px;
+	margin-left: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	}
