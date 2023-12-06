@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: 'Playpen Sans';
-	src: url('/src/fonts/PlaypenSans-VariableFont_wght.ttf') format('ttf'),
+	src: url('PlaypenSans-VariableFont_wght.ttf') format('truetype');
   }
 
 body {
