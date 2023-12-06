@@ -29,6 +29,9 @@ body {
 }
 
     .title{
+		@media (width <=375px){
+			font-size:60px;
+		}
 	font-family: "Playpen Sans";
 	color:rgb(57 121 216 / 100%);
 	font-size:100px;
