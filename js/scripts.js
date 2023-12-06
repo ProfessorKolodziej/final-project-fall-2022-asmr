@@ -6,34 +6,22 @@
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
 
+
 ////popup
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const overlay = document.getElementById('overlay')
+const popupButton = document.getElementById('popupButton');
+const overlay = document.getElementById('overlay');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('closeButton');
 
-openModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const modal = document.querySelector(button.dataset.modalTarget)
-    openModal(modal)
-  })
-})
+popupButton.addEventListener('click', () => {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+});
 
-overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active')
-  modals.forEach(modal => {
-    closeModal(modal)
-  })
-})
-
-
-function openModal(modal) {
-  if (modal == null) return
-  modal.classList.add('active')
-  overlay.classList.add('active')
-}
-
-
-
-
+closeButton.addEventListener('click', () => {
+  overlay.style.display = 'none';
+  popup.style.display = 'none';
+});
 
 
 // essense sound 
@@ -122,3 +110,13 @@ const audio12 = document.getElementById('audio12');
 playsound12.addEventListener('click', () => {
     audio12.play();
 });
+///
+const playsound13 = document.getElementById('playsound13');
+const audio13 = document.getElementById('audio13');
+  
+playsound13.addEventListener('click', () => {
+    audio13.play();
+});
+
+
+
